@@ -8,7 +8,7 @@ def git_pull():
     """
     Updates the repository
     """
-    run("cd ../home/django_project && git pull origin master")
+    run("cd ../home/django/django_project && git pull origin master")
 
 
 @task
